@@ -9,7 +9,7 @@ import { useState } from "react";
 import { FaChevronRight } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
 import { FaPhoneAlt } from "react-icons/fa";
-
+import imglogo from "/src/assets/asset0.png";
 
 function Header({button,logo}){
      
@@ -106,7 +106,7 @@ function Header({button,logo}){
     return <>
        <div className="Header">
         <div className="mini-header1">
-            <p className='logo' onClick={logo} style={{cursor:"pointer"}} ><img src="./src/assets/asset0.png" alt="" /></p>
+            <p className='logo' onClick={logo} style={{cursor:"pointer"}} ><img src={imglogo} alt="" /></p>
             <p >Products</p>
             <p >Industries</p>
             <p >Customers</p>

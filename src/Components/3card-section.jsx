@@ -1,11 +1,14 @@
 import Itmes from "./7item";
+import quics from "/src/assets/quics.webp"
+import crm from "/src/assets/crm.png"
+import basic from "/src/assets/basic.png"
 function CardSection({button}){
     
     return <>
     <div className="card-sections">
     <div class="card section-card" >
     <div class="card-img-top d-flex justify-content-center my-4">
-        <img src="./src/assets/quics.webp"  style={{width:100+'px', margin:'auto'}} alt="..."/>
+        <img src={quics}  style={{width:100+'px', margin:'auto'}} alt="..."/>
 
         </div>
         <button type="button" style={{width:20+'%' ,padding: 0 +'px'}} class="btn btn-info mx-3">module</button>
@@ -17,7 +20,7 @@ function CardSection({button}){
     </div>
     <div class="card section-card" >
     <div class="card-img-top d-flex justify-content-center my-4">
-        <img src="./src/assets/crm.png"  style={{width:100+'px', margin:'auto'}} alt="..."/>
+        <img src={crm}  style={{width:100+'px', margin:'auto'}} alt="..."/>
 
         </div>
         <button type="button" style={{width:20+'% ',padding:0+'px'}} class="btn btn-info mx-3">module</button>
@@ -29,7 +32,7 @@ function CardSection({button}){
     </div>
     <div class="card section-card" >
     <div class="card-img-top d-flex justify-content-center my-4">
-        <img src="./src/assets/basic.png"  style={{width:100+'px', margin:'auto'}} alt="..."/>
+        <img src={basic}  style={{width:100+'px', margin:'auto'}} alt="..."/>
 
         </div>
         <button type="button" style={{width:20+'%' ,padding:0+'px'}} class="btn btn-info mx-3">module</button>

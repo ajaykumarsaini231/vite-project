@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Itme from "./footer_item";
-
+import imglogo from "/src/assets/asset0.png"
 function Footer({logo}){
     let whysales = [
        'Why Salesforce','What is CRM?','Explore All Products','SaaS','Customer Success','Product Pricing'
@@ -26,7 +26,7 @@ function Footer({logo}){
     return<>
     <div className="Footer container">
             <div className="social">
-                <a className='logo' onClick={logo} href=".Header"><img src="./src/assets/asset0.png" alt="" size={80}/></a>
+                <a className='logo' onClick={logo} href=".Header"><img src={imglogo} alt="" size={80}/></a>
                 <div className="icons">
                     <a href=""><CiInstagram size={30}/></a>
                     <a href=""> <FaFacebookSquare size={30} />     </a>

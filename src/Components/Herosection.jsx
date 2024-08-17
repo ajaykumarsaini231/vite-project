@@ -1,6 +1,6 @@
 import Cardsection from "./4card-section";
 import ButtonClick from "./dualhandleonbutton";
-
+import video from "/src/assets/vid-au-hp-marquee.mp4"
 function Herosection({button}){
     return<>
       <div className="containe flex">
@@ -11,7 +11,7 @@ function Herosection({button}){
          </div>
          <div className="video">
            {/* <img src="./src/assets/Screenshot_26-5-2024_19754_www.salesforce.com.jpeg" class="object-fit-sm-contain border rounded"  alt="..."/> */}
-           <video src="./src/assets/vid-au-hp-marquee.mp4" className="video ratio ratio-1x1" autoPlay loop muted type="video/mp4" ></video>
+           <video src={video} className="video ratio ratio-1x1" autoPlay loop muted type="video/mp4" ></video>
 
            
          </div>

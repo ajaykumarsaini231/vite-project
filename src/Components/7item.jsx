@@ -1,17 +1,43 @@
+import pic1 from "/src/assets/in-hp-min-logo-balaji.webp"
+import pic2 from "/src/assets/in-hp-min-logo-flame.webp"
+import pic3 from "/src/assets/in-hp-min-logo-godrejboyce.webp"
+import pic4 from "/src/assets/in-hp-min-logo-mahindra.webp"
+import pic5 from "/src/assets/in-hp-min-logo-genpact.webp"
+import pic6 from "/src/assets/in-hp-min-logo-pepe.webp"
+import pic7 from "/src/assets/in-hp-min-logo-razorpay.webp"
+import pic8 from "/src/assets/in-hp-min-logo-pepe.webp"
 
 
 function Itmes(){
-      let pic = [
-           "../src/assets/in-hp-min-logo-balaji.webp","../src/assets/in-hp-min-logo-flame.webp","../src/assets/in-hp-min-logo-godrejboyce.webp","../src/assets/in-hp-min-logo-genpact.webp",
-           "../src/assets/in-hp-min-logo-mahindra.webp","../src/assets/in-hp-min-logo-pepe.webp","../src/assets/in-hp-min-logo-razorpay.webp","../src/assets/in-hp-min-logo-pepe.webp"
-      ]
+      
     return <>
     <div className="img-contaner">
-      {pic.map((item) => ( 
+      
         <div>
-            <img src={item} size={30}/>
+            <img src={pic1} size={30}/>
         </div>
-      ))}
+        <div>
+            <img src={pic2} size={30}/>
+        </div>
+        <div>
+            <img src={pic3} size={30}/>
+        </div>
+        <div>
+            <img src={pic4} size={30}/>
+        </div>
+        <div>
+            <img src={pic5} size={30}/>
+        </div>
+        <div>
+            <img src={pic6} size={30}/>
+        </div>
+        <div>
+            <img src={pic7} size={30}/>
+        </div>
+        <div>
+            <img src={pic8} size={30}/>
+        </div>
+      
       </div>
     </>
 }
