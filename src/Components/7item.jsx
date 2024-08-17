@@ -1,4 +1,4 @@
-import Item from "../../../Accordian/src/item";
+
 
 function Itmes(){
       let pic = [

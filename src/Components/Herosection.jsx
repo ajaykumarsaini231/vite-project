@@ -10,8 +10,8 @@ function Herosection({button}){
             <ButtonClick button ={button}></ButtonClick>
          </div>
          <div className="video">
-           {/* <img src="../../src/assets/Screenshot_26-5-2024_19754_www.salesforce.com.jpeg" class="object-fit-sm-contain border rounded"  alt="..."/> */}
-           <video src="../../src/assets/vid-au-hp-marquee.mp4" className="video ratio ratio-1x1" autoPlay loop muted type="video/mp4" ></video>
+           {/* <img src="./src/assets/Screenshot_26-5-2024_19754_www.salesforce.com.jpeg" class="object-fit-sm-contain border rounded"  alt="..."/> */}
+           <video src="./src/assets/vid-au-hp-marquee.mp4" className="video ratio ratio-1x1" autoPlay loop muted type="video/mp4" ></video>
 
            
          </div>

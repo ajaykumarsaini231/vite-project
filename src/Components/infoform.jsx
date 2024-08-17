@@ -7,7 +7,7 @@ function Infoform(){
     return<>
        <div className="flex containe infobg">
          <div className="text">
-            <a className='logo' href=""><img src="../../src/assets/asset0.png" alt="" style={{width:120+'px',height:80+'px',marginLeft:20+'px'}}/></a>
+            <a className='logo' href=""><img src="./src/assets/asset0.png" alt="" style={{width:120+'px',height:80+'px',marginLeft:20+'px'}}/></a>
             <h1 className="my-4 mx-4">Start your free 30 day trial.</h1>
             <p>
             <h4 className="my-4 mx-4">With Starter Suite, there’s no credit card required, no software to install</h4>

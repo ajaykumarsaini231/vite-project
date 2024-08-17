@@ -26,7 +26,7 @@ function Footer({logo}){
     return<>
     <div className="Footer container">
             <div className="social">
-                <a className='logo' onClick={logo} href=".Header"><img src="../../src/assets/asset0.png" alt="" size={80}/></a>
+                <a className='logo' onClick={logo} href=".Header"><img src="./src/assets/asset0.png" alt="" size={80}/></a>
                 <div className="icons">
                     <a href=""><CiInstagram size={30}/></a>
                     <a href=""> <FaFacebookSquare size={30} />     </a>

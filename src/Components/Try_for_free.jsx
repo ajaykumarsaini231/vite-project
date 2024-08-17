@@ -11,7 +11,7 @@ function TryFree({button}){
             </div>
          </div>
          <div className="video">
-           <img src="../../src/assets/php-free-trial-mobile-inr2000-940w.webp" className="object-fit-sm-contain border rounded" style={{height:350+'px'}}  alt="..."/>
+           <img src="./src/assets/php-free-trial-mobile-inr2000-940w.webp" className="object-fit-sm-contain border rounded" style={{height:350+'px'}}  alt="..."/>
 
            
          </div>
@@ -19,28 +19,28 @@ function TryFree({button}){
       <h2 className="text-stat mx-4">How can we help grow your business?</h2>
       <div className="flex space-between card-sections">
       <div className="card" style={{width:18+'rem'}}>
-        <img src="../../src/assets/php-products-sales-in.webp" className="card-img-top" alt="..."/>
+        <img src="./src/assets/php-products-sales-in.webp" className="card-img-top" alt="..."/>
             <div className="card-body">
                 
                 <a href="#" className="btn btn-link">Go somewhere</a>
             </div>
       </div >
       <div className="card" style={{width:18+'rem'}}>
-        <img src="../../src/assets/Build_ustomer_relationships.webp" className="card-img-top" alt="..."/>
+        <img src="./src/assets/Build_ustomer_relationships.webp" className="card-img-top" alt="..."/>
             <div className="card-body">
                 
                 <a href="#" className="btn btn-link">Go somewhere</a>
             </div>
       </div>
       <div className="card" style={{width:18+'rem'}}>
-        <img src="../../src/assets/php-products-service-in.webp" className="card-img-top" alt="..."/>
+        <img src="./src/assets/php-products-service-in.webp" className="card-img-top" alt="..."/>
             <div className="card-body">
                 
                 <a href="#" className="btn btn-link">Go somewhere</a>
             </div>
       </div>
       <div className="card" style={{width:18+'rem'}}>
-        <img src="../../src/assets/php-products-small-business-in.webp" className="card-img-top" alt="..."/>
+        <img src="./src/assets/php-products-small-business-in.webp" className="card-img-top" alt="..."/>
             <div className="card-body">
                 
                 <a href="#" className="btn btn-link">Go somewhere</a>
@@ -53,7 +53,7 @@ function TryFree({button}){
 
       <div className="flex space-between card-sections bye-back">
       <div className="card" style={{width:18+'rem'}}>
-        <img src="../../src/assets/Fortue_1.webp" className="card-img-top" alt="..."/>
+        <img src="./src/assets/Fortue_1.webp" className="card-img-top" alt="..."/>
             <div className="card-body">
                 
             <p className="card-text" style={{textAlign:'center'}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -61,7 +61,7 @@ function TryFree({button}){
             </div>
       </div>
       <div className="card" style={{width:18+'rem'}}>
-        <img src="../../src/assets/fortune_2.webp" className="card-img-top" alt="..."/>
+        <img src="./src/assets/fortune_2.webp" className="card-img-top" alt="..."/>
             <div className="card-body">
                 
             <p className="card-text" style={{textAlign:'center'}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -69,7 +69,7 @@ function TryFree({button}){
             </div>
       </div>
       <div className="card" style={{width:18+'rem'}}>
-        <img src="../../src/assets/1.5_billon.webp" className="card-img-top" alt="..."/>
+        <img src="./src/assets/1.5_billon.webp" className="card-img-top" alt="..."/>
             <div className="card-body">
                 
             <p className="card-text" style={{textAlign:'center'}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
