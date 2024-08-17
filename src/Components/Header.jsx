@@ -60,11 +60,14 @@ function Header({button,logo}){
             y ='menu-hidden'
             console.log("hello")
             z=x=''
+            setloginhover(z) 
+            setmenuhover(y)
+            setonhover(x)
             
         }else{
             y=''
             console.log("hii")
-            
+            setmenuhover(y)
         }
     }
 
@@ -75,13 +78,12 @@ function Header({button,logo}){
             setloginhover(z)
             y=x='' 
             setmenuhover('')
-           
             setonhover('')
             
         }else{
             z=''
             
-            setloginhover('')
+            setloginhover(z)
         }
     }
     function handleonhover(e){
