@@ -16,6 +16,7 @@ import Form from './Components/form'
 import Infoform from './Components/infoform'
 import Products from './Components/Products.js/products'
 
+
 //  let x = home();
 
 
@@ -62,6 +63,7 @@ function App() {
     <Subheader></Subheader>
     {x}
     <Footer logo={onclickLogo}></Footer>  
+ 
    
  </>
 }

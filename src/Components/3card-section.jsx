@@ -46,9 +46,9 @@ function CardSection({button}){
 </div> 
     
      <div className="container">
-<p href=""className="text-stat" onClick={button}><span className="text-stat btn btn-outline-primary" >View our all products</span></p>
+<p href=""className="text-stat" ><span className="text-stat btn btn-outline-primary" onClick={button} >View our all products</span></p>
  <h1 className="text-stat">Over 150,000 companies, both big and small, are growing their business with Salesforce.</h1>
-<p href=""className="text-stat" onClick={button}><span className="my-4 btn btn-outline-primary">View our all products</span></p>
+<p href=""className="text-stat"><span className="my-4 btn btn-outline-primary "  onClick={button}>View our all products</span></p>
       
      </div>
 

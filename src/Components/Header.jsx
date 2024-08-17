@@ -10,7 +10,8 @@ import { FaChevronRight } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
 import { FaPhoneAlt } from "react-icons/fa";
 import imglogo from "/src/assets/asset0.png";
-
+import { StrictMode } from "react";
+import { useEffect  , useRef} from "react";
 
 
 function Header({button,logo}){
@@ -46,23 +47,28 @@ function Header({button,logo}){
         'ประเทศไทย (ไทย)',
         'All other countries (English)'
     ]
-    let x,y,z = ''
+    
     let [onhover,  setonhover] = useState('');
     let [menuhover, setmenuhover] =useState('')
     let [loginhover, setloginhover] =useState('')
+    let x = onhover;
+    let y = menuhover;
+    let z = loginhover;
+    
     function menuclick(){
         if(y==''){
             y ='menu-hidden'
-            setmenuhover(y)
+            console.log("hello")
             z=x=''
-            setonhover('')
-            setloginhover('')
+            
         }else{
             y=''
+            console.log("hii")
             
-            setmenuhover('')
         }
     }
+
+   
     function loginclick(){
         if(z==''){
             z ='login-hidden'
@@ -96,8 +102,8 @@ function Header({button,logo}){
         else{  
             
              x= 'hidden'
-             console.log('hii')
-             
+             console.log('hii'+x)
+             x= 'hidden'
             z=y=''
             setmenuhover(y)
             setloginhover('')
@@ -105,21 +111,24 @@ function Header({button,logo}){
         }
         
     }
+    
     return <>
+    <StrictMode>
+
        <div className="Header">
         <div className="mini-header1">
             <p className='logo' onClick={logo} style={{cursor:"pointer"}} ><img src={imglogo} alt="" /></p>
-            <p >Products</p>
-            <p >Industries</p>
-            <p >Customers</p>
-            <p >Learing</p>
-            <p >Support</p>
+            <p onMouseDown={menuclick}>Products</p>
+            <p onMouseDown={menuclick}>Industries</p>
+            <p onMouseDown={menuclick}>Customers</p>
+            <p onMouseDown={menuclick}>Learing</p>
+            <p onMouseDown={menuclick}>Support</p>
          <li className="nav-item dropdown">
           <p className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             More
           </p>
           <ul className="dropdown-menu px-4">
-            <li><a className="dropdown-item" href="#">Compney</a></li>
+            <li><a className="dropdown-item" href="#" >Compney</a></li>
             <li><a className="dropdown-item" href="#">SelesForce+</a></li>        
           </ul>
         </li>
@@ -198,6 +207,7 @@ function Header({button,logo}){
       </div> 
       
     <div className="false-Header"></div>
+    </StrictMode>
     </>
 }
 
