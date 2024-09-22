@@ -489,6 +489,10 @@ video{
     width: 90%;
     margin-block: 10px;
   }
+   .video{
+    margin-left: 30px;
+    margin-top: 40px;
+ }
   .about{
     width: 70%;
    }
